@@ -1,0 +1,6 @@
+nose
+tox
+wheel
+twine
+invoke
+mock
