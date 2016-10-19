@@ -63,7 +63,7 @@ class Lemmatizer:
               words.append(lemma)
           else:
             words.append(lemma)
-      return list(set(words))
+      return words
     return False
 
   @classmethod
