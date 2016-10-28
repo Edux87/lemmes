@@ -74,7 +74,29 @@ if __name__ == '__main__':
     u'miraditas',
     u'ansioso',
     u'periscópico',
+    u'variando',
+    u'últimamente',
+    u'pudieramos',
+    u'pudientemente',
+    u'tenerte',
+    u'totalmente',
+    u'sexualizar',
+    u'terminando',
+    u'hablando',
+    u'determinantemente',
+    u'superandolos',
+    u'superandote',
+    u'superandose',
+    u'superarse',
+    u'superarse',
+    u'extrañan',
+    u'extrañarse',
+    u'mutuamente',
+    u'extrañesa',
+    u'segregación',
+    u'educativa',
   ]
 
   for w in p:
-    print w, '\t', L.lemmatize(w), L.stemmer(w)
+    # print w, '\t', L.lemmatize(w), L.stemmer(w)
+    print w, '\t', L.lemmatize(w)

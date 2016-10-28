@@ -4,4 +4,5 @@ RULES = {
   'querid': 'querer',
   'mirando': 'mirar',
   'miradit': 'mirar',
+  'pudier': 'poder',
 }

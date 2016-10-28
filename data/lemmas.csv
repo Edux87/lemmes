@@ -38817,10 +38817,11 @@ extralimit,extralimitarse,1,standard
 extralingüist,extralingüístico,1,standard
 extramur,extramuros,1,standard
 extrañ,extraña,1,standard
-extrañ,extrañación,1,standard
-extrañ,extrañamente,1,standard
-extrañ,extrañamiento,1,standard
+extrañ,extrañación,0,standard
+extrañ,extrañamente,0,standard
+extrañ,extrañamiento,0,standard
 extrañ,extrañar,1,standard
+extrañes,extraño,1,extend
 extrañ,extraño,1,standard
 extranatural,extranatural,1,standard
 extrañez,extrañez,1,standard
@@ -75006,6 +75007,7 @@ sextupl,sextuplicación,1,standard
 sextupl,séxtuplo,1,standard
 sextuplic,sextuplicar,1,standard
 sexu,sexuado,1,standard
+sexualiz,sexual,1,extend
 sexual,sexual,1,standard
 sexual,sexualidad,1,standard
 sexual,sexualmente,1,standard
@@ -77078,8 +77080,9 @@ supedit,supeditación,1,standard
 supedit,supeditar,1,standard
 super,superable,1,standard
 super,superación,1,standard
-super,superador,1,standard
-super,superante,1,standard
+super,superador,0,standard
+super,superante,0,standard
+superandot,superar,1,extend
 super,superar,1,standard
 super,súpero,1,standard
 superabund,superabundancia,1,standard
@@ -78659,6 +78662,7 @@ temulent,temulento,1,standard
 ten,ten,1,standard
 ten,tena,1,standard
 ten,tenada,1,standard
+tenert,tener,1,extend
 ten,tener,1,standard
 ten,tenería,1,standard
 ten,tenida,1,standard
@@ -78935,9 +78939,9 @@ termic,térmico,1,standard
 termidor,termidor,1,standard
 termin,terminable,1,standard
 termin,terminación,1,standard
-termin,terminador,1,standard
-termin,terminante,1,standard
-termin,terminantemente,1,standard
+termin,terminador,0,standard
+termin,terminante,0,standard
+termin,terminantemente,0,standard
 termin,terminar,1,standard
 termin,terminativo,1,standard
 termin,terminista,1,standard
@@ -80261,7 +80265,7 @@ tot,tote,1,standard
 tot,totí,1,standard
 total,total,1,standard
 total,totalidad,1,standard
-total,totalmente,1,standard
+total,totalmente,0,standard
 totalitar,totalitarismo,1,standard
 totalitar,totalitarista,1,standard
 totalitari,totalitario,1,standard
