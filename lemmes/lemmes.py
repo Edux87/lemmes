@@ -75,7 +75,6 @@ class Lemmatizer:
     def create_lemmas(self):
         lemmas = []
         dictionary = {}
-        self.move_file()
         with io.open(cf.FILE_LEMMAS_CSV, 'r', encoding='utf-8') as flemma:
             reader = csv.reader(flemma)
             for row in reader:

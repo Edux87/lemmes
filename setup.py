@@ -3,6 +3,7 @@
 import os
 import re
 from setuptools import setup
+from setuptools.command.install import install
 
 
 name = 'lemmes'
@@ -13,6 +14,13 @@ REQUIREMENTS = [
     'backports.csv',
     'unidecode'
 ]
+
+class PostInstallCommand(install):
+    def run(self):
+        from lemmes import Lemmatizer as L
+        L.move_file()
+        print('move lemmes.csv file ...')
+        install.run(self)
 
 DESCRIPTION = ("Lemmatizer for spanish language")
 def find_version(fname):
@@ -76,6 +84,9 @@ setup(
     url=repo_url,
     tests_require=['invoke'],
     include_package_data=True,
+    cmdclass={
+        'install': PostInstallCommand
+    },
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
