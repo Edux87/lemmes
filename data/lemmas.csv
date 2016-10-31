@@ -5736,6 +5736,7 @@ analfabet,analfabetismo,1,standard
 analfabet,analfabeto,1,standard
 analges,analgésico,1,standard
 analgesi,analgesia,1,standard
+analizandot,análisis,1,extend
 analisis,análisis,1,standard
 analist,analístico,1,standard
 analit,analítica,1,standard
@@ -6581,9 +6582,9 @@ antigen,antigénico,1,standard
 antigen,antígeno,1,standard
 antigramatical,antigramatical,1,standard
 antigripal,antigripal,1,standard
-antigu,antiguamente,1,standard
-antigu,antiguamiento,1,standard
-antigu,antiguar,1,standard
+antigu,antiguamente,0,standard
+antigu,antiguamiento,0,standard
+antigu,antiguar,0,standard
 antigu,antiguo,1,standard
 antiguall,antigualla,1,standard
 antiguan,antiguano,1,standard
@@ -26394,16 +26395,6 @@ davideñ,davideño,1,standard
 daz,daza,1,standard
 daziba,dazibao,1,standard
 ddt,DDT,1,standard
-de,de,1,standard
-de fact,de facto,1,standard
-de iur,de iure,1,standard
-de jur,de jure,1,standard
-de pane lucr,de pane lucrando,1,standard
-de profundis,de profundis,1,standard
-de verbo ad verbum,de verbo ad vérbum,1,standard
-de visu,de visu,1,standard
-de vita et moribus,de vita et móribus,1,standard
-de-,de-,1,standard
 dea,dea,1,standard
 deal,deal,1,standard
 deambul,deambulación,1,standard
@@ -26414,6 +26405,7 @@ deanat,deanato,1,standard
 deanazg,deanazgo,1,standard
 deb,debe,1,standard
 deb,deber,1,standard
+debid,debida,1,extend
 deb,debida,1,standard
 deb,debido,1,standard
 deb,debó,1,standard
@@ -26430,7 +26422,7 @@ debd,debdo,1,standard
 debel,debelación,1,standard
 debel,debelador,1,standard
 debel,debelar,1,standard
-debid,debidamente,1,standard
+debid,debidamente,0,standard
 debil,débil,1,standard
 debil,debilidad,1,standard
 debil,débilmente,1,standard
@@ -28118,7 +28110,8 @@ descension,descensión,1,standard
 descentr,descentrado,1,standard
 descentr,descentrar,1,standard
 descentraliz,descentralización,1,standard
-descentraliz,descentralizador,1,standard
+descentraliz,descentralizador,0,standard
+descentraliz,descentralizado,1,extend
 descentraliz,descentralizar,1,standard
 descep,descepar,1,standard
 descer,descerar,1,standard
@@ -38820,6 +38813,7 @@ extrañ,extraña,1,standard
 extrañ,extrañación,0,standard
 extrañ,extrañamente,0,standard
 extrañ,extrañamiento,0,standard
+extrañandot,extrañar,1,extend
 extrañ,extrañar,1,standard
 extrañes,extraño,1,extend
 extrañ,extraño,1,standard
@@ -39201,6 +39195,7 @@ falsif,falsificador,1,standard
 falsific,falsificar,1,standard
 falsill,falsilla,1,standard
 falsopet,falsopeto,1,standard
+faltamient,falta,1,extend
 falt,falta,1,standard
 falt,faltar,1,standard
 falt,falte,1,standard
@@ -85467,3 +85462,4 @@ zuz,zuzar,1,standard
 zuz,zuzo,1,standard
 zuzon,zuzón,1,standard
 causit,causa,1,peruanismo
+redireccion,redireccionar,1,extend

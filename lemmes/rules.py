@@ -5,4 +5,5 @@ RULES = {
   'mirando': 'mirar',
   'miradit': 'mirar',
   'pudier': 'poder',
+  # 'creia': 'creer',
 }
