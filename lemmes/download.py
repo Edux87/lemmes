@@ -29,10 +29,11 @@ class ResourceData:
             makedirs(ntltk_path)
         if not path.isdir(cf.PATH_BIN_LEMMES):
             makedirs(cf.PATH_BIN_LEMMES)
+        print('set content in: ' + cf.PATH_BIN_LEMMES)
         self.unzip_from_source('corpora', ntltk_path)
         self.unzip_from_source('tokenizers', ntltk_path)
         print('done!')
-    return True
+        return True
 
 if __name__ == '__main__':
     ResourceData.download()
