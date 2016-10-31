@@ -11,6 +11,7 @@ build_dir = os.path.join(docs_dir, '_build')
 def clean(ctx, bytecode=True, extra=''):
     patterns = []
     patterns.append('dist')
+    patterns.append('build')
     patterns.append('*.egg*')
 
     if bytecode:
@@ -25,6 +26,7 @@ def clean(ctx, bytecode=True, extra=''):
 def build(ctx):
     run("python setup.py build && python setup.py egg_info")
     run("python setup.py sdist bdist_wheel")
+    run("python setup.py install")
 
 
 @task

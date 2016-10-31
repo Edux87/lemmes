@@ -4,10 +4,17 @@ import os
 import re
 from setuptools import setup
 
-name = 'lemmes'
-package = 'nltk'
-repo_url = 'https://github.com/Edux87/lemmes'
 
+name = 'lemmes'
+package = 'lemmes'
+repo_url = 'https://github.com/Edux87/lemmes'
+REQUIREMENTS = [
+    'nltk',
+    'backports.csv',
+    'unidecode'
+]
+
+DESCRIPTION = ("Lemmatizer for spanish language")
 def find_version(fname):
     """Attempts to find the version number in the file names fname.
     Raises RuntimeError if not found.
@@ -26,13 +33,6 @@ def find_version(fname):
 
 __version__ = find_version(name + "/__init__.py")
 
-REQUIREMENTS = [
-    'nltk',
-    'backports.csv',
-    'unidecode'
-]
-
-DESCRIPTION = ("Lemmatizer for spanish language")
 with open('README.md') as f:
     LONG_DESCRIPTION = f.read()
 
@@ -75,6 +75,7 @@ setup(
     install_requires=REQUIREMENTS,
     url=repo_url,
     tests_require=['invoke'],
+    include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
