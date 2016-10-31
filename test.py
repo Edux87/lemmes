@@ -108,9 +108,7 @@ if __name__ == '__main__':
     u'antiguamente',
     u'creía',
     u'creaba',
-    u'redireccionado',
   ]
 
   for w in p:
-    print w, '\t', L.lemmatize(w), L.stemmer(w)
-    # print w, '\t', L.lemmatize(w)
+    print repr(L.lemmatize(w))

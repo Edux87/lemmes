@@ -5,7 +5,7 @@ MAINTAINER edanie15@gmail.com
 RUN apt-get update
 RUN pip install --upgrade pip
 RUN pip install supervisor
-RUN apt-get install -y git unzip && \
+RUN apt-get install -y git unzip ca-certificates && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

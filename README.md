@@ -9,7 +9,7 @@ After clone this repo
 
 ## Basic Usage
 
-    # see demo.py
+    # see test.py
 
 ## Developer Stage
 ### Pre-Install
@@ -19,7 +19,7 @@ After clone this repo
 ### Run
 
     cd /[project_path]
-    docker build -ti lemmes .
+    docker build -t lemmes .
     docker run -v $(pwd):/lemmes:rw -it lemmes bash
     python -m lemmes.download
 

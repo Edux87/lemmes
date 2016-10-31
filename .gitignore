@@ -7,6 +7,7 @@
 *.data
 *.tagger
 .~*
+.pypirc
 
 temp/*
 models/*
