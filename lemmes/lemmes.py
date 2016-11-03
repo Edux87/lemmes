@@ -3,23 +3,21 @@ import sys
 import io
 import config as cf
 import logging
-from backports import csv
-from itertools import groupby
-from os.path import isfile, join, isdir
-from os import path, popen, makedirs
 import shutil
-from nltk.stem import SnowballStemmer
-from pickle import dump, load
 import difflib
 import string
 import re
+from itertools import groupby
+from os.path import isfile, join, isdir
+from os import path, popen, makedirs
+from pickle import dump, load
 from rules import RULES
-from unidecode import unidecode
 
 
 class Lemmatizer:
     @classmethod
     def __init__(self):
+        from nltk.stem import SnowballStemmer
         self.STEMMER = SnowballStemmer('spanish')
         self.LANG = cf.LANG
         self.LOG = logging.getLogger(__name__)
@@ -50,7 +48,7 @@ class Lemmatizer:
                 elif (token in lemmas.keys()):
                     return lemmas.get(token)
                 else:
-                    l_words1 = set(lemmas)
+                    l_words1 = set(lemmas.values())
                     l_words2 = set()
                     len_stemm = len(stemmed)-1
                     for t in range(len_stemm, len(token)):
@@ -73,6 +71,8 @@ class Lemmatizer:
 
     @classmethod
     def create_lemmas(self):
+        from unidecode import unidecode
+        from backports import csv
         lemmas = []
         dictionary = {}
         with io.open(cf.FILE_LEMMAS_CSV, 'r', encoding='utf-8') as flemma:
@@ -108,6 +108,9 @@ class Lemmatizer:
 
     @classmethod
     def move_file(self):
-        lemmas = []
-        dictionary = {}
-        shutil.copy('data/' + cf.SOURCE_LEMMAS_CSV, cf.FILE_LEMMAS_CSV)
+        f = 'data/' + cf.SOURCE_LEMMAS_CSV
+        to = cf.FILE_LEMMAS_CSV
+        if not isdir(cf.PATH_BIN_LEMMES):
+            makedirs(cf.PATH_BIN_LEMMES)
+        print(f, to)
+        shutil.copy(f, to)

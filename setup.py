@@ -10,16 +10,16 @@ name = 'lemmes'
 package = 'lemmes'
 repo_url = 'https://github.com/Edux87/lemmes'
 REQUIREMENTS = [
+    'unidecode',
     'nltk',
-    'backports.csv',
-    'unidecode'
+    'backports.csv'
 ]
 
 class PostInstallCommand(install):
     def run(self):
         from lemmes import Lemmatizer as L
-        L.move_file()
         print('move lemmes.csv file ...')
+        L.move_file()
         install.run(self)
 
 DESCRIPTION = ("Lemmatizer for spanish language")

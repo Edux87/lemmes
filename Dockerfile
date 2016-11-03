@@ -15,5 +15,7 @@ RUN pip install -r requirements.txt
 ADD dev-requirements.txt /
 RUN pip install -r dev-requirements.txt
 
+ADD .pypirc /root
+
 RUN mkdir /lemmes
 WORKDIR /lemmes

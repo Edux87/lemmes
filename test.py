@@ -3,7 +3,7 @@ from lemmes import Lemmatizer
 import logging
 
 
-# logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.INFO)
 if __name__ == '__main__':
     L = Lemmatizer()
     p = [
@@ -108,6 +108,7 @@ if __name__ == '__main__':
         u'antiguamente',
         u'creía',
         u'creaba',
+        u'señalan',
     ]
 
     for w in p:
