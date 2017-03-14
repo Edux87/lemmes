@@ -1916,6 +1916,7 @@ adopcion,adopcionismo,1,standard
 adopcion,adopcionista,1,standard
 adopt,adoptable,1,standard
 adopt,adoptación,1,standard
+adopt,adoptado,1,standard
 adopt,adoptador,1,standard
 adopt,adoptante,1,standard
 adopt,adoptar,1,standard
@@ -5736,15 +5737,15 @@ analfabet,analfabetismo,1,standard
 analfabet,analfabeto,1,standard
 analges,analgésico,1,standard
 analgesi,analgesia,1,standard
-analizandot,análisis,1,extend
 analisis,análisis,1,standard
 analist,analístico,1,standard
 analit,analítica,1,standard
 analit,analíticamente,1,standard
 analit,analítico,1,standard
-analiz,analizable,1,standard
-analiz,analizador,1,standard
+analiz,analizable,0,standard
+analiz,analizador,0,standard
 analiz,analizar,1,standard
+analizandot,análisis,1,extend
 analog,análogamente,1,standard
 analog,analogía,1,standard
 analog,analógicamente,1,standard
@@ -6216,8 +6217,10 @@ animaler,animalero,1,standard
 animalesc,animalesco,1,standard
 animali,animalia,1,standard
 animali,animalias,1,standard
+animalit,animal,1,standard
 animaliz,animalización,1,standard
 animaliz,animalizar,1,standard
+animalon,animal,0,standard
 animaluch,animalucho,1,standard
 animer,animero,1,standard
 animiz,animizar,1,standard
@@ -6252,10 +6255,8 @@ aniversari,aniversario,1,standard
 anje,anjeo,1,standard
 anjov,anjova,1,standard
 annamit,annamita,1,standard
-anos,ano,1,standard
 ano,ano,1,standard
 ano,anoa,1,standard
-años,año,1,standard
 año,año,1,standard
 anobi,anobio,1,standard
 anoch,anoche,1,standard
@@ -6301,6 +6302,8 @@ anori,anoria,1,standard
 anormal,anormal,1,standard
 anormal,anormalidad,1,standard
 anorz,anorza,1,standard
+anos,ano,1,standard
+años,año,1,standard
 anosmi,anosmia,1,standard
 anosognosi,anosognosia,1,standard
 anot,anotación,1,standard
@@ -15733,9 +15736,9 @@ cancan,cancanoso,1,standard
 cancane,cancaneo,1,standard
 cancanill,cancanilla,1,standard
 cancat,cancato,1,standard
-cancel,cancel,1,standard
-cancel,cancela,1,standard
-cancel,cancelación,1,standard
+cancel,cancel,0,standard
+cancel,cancela,0,standard
+cancel,cancelación,0,standard
 cancel,cancelar,1,standard
 cancel,Cancelaría,1,standard
 cancel,cancelería,1,standard
@@ -16682,8 +16685,8 @@ cardonal,cardonal,1,standard
 cardoncill,cardoncillo,1,standard
 carduch,carducha,1,standard
 cardum,cardume,1,standard
-cardumen,cardumen,1,extend
 cardum,cardumen,1,standard
+cardumen,cardumen,1,extend
 carduz,carduza,1,standard
 carduz,carduzador,1,standard
 carduz,carduzar,1,standard
@@ -16836,6 +16839,8 @@ caritater,caritatero,1,standard
 cariuch,cariucho,1,standard
 cariz,cariz,1,standard
 carl,carla,1,standard
+carl,carl,1,standard
+carl,carlos,1,standard
 carl,carlear,1,standard
 carl,carló,1,standard
 carlanc,carlanca,1,standard
@@ -17750,6 +17755,7 @@ causant,causante,1,standard
 causat,causativo,1,standard
 causet,causeta,1,standard
 causid,causídico,1,standard
+causit,causa,1,peruanismo
 causon,causón,1,standard
 caustic,cáustica,1,standard
 caustic,cáusticamente,1,standard
@@ -21591,6 +21597,7 @@ coj,cojear,1,standard
 coj,cojo,1,standard
 cojal,cojal,1,standard
 cojedeñ,cojedeño,1,standard
+cojer,cojer,1,standard
 cojer,cojera,1,standard
 cojij,cojijo,1,standard
 cojij,cojijoso,1,standard
@@ -25887,7 +25894,7 @@ cultos,cultoso,1,standard
 cultrun,cultrún,1,standard
 cultual,cultual,1,standard
 cultur,cultura,1,standard
-cultur,culturar,1,standard
+cultur,culturar,0,standard
 cultur,culturismo,1,standard
 cultur,culturista,1,standard
 cultur,culturoso,1,standard
@@ -26405,7 +26412,6 @@ deanat,deanato,1,standard
 deanazg,deanazgo,1,standard
 deb,debe,1,standard
 deb,deber,1,standard
-debid,debida,1,extend
 deb,debida,1,standard
 deb,debido,1,standard
 deb,debó,1,standard
@@ -26422,6 +26428,7 @@ debd,debdo,1,standard
 debel,debelación,1,standard
 debel,debelador,1,standard
 debel,debelar,1,standard
+debid,debida,1,extend
 debid,debidamente,0,standard
 debil,débil,1,standard
 debil,debilidad,1,standard
@@ -27352,7 +27359,6 @@ dervich,derviche,1,standard
 des,des,1,standard
 des,desarme,1,standard
 des,dese,1,standard
-deseandot,desear,1,extend
 des,desear,1,standard
 des,desosar,1,standard
 des-,des-,1,standard
@@ -28372,6 +28378,7 @@ descrem,descremado,1,standard
 descrem,descremadora,1,standard
 descrem,descremar,1,standard
 descrest,descrestar,1,standard
+decrimin,descriminación,1,standard
 descri,descriarse,1,standard
 describ,describir,1,standard
 descrin,descrinar,1,standard
@@ -28469,6 +28476,7 @@ dese,deseo,1,standard
 deseabil,deseabilidad,1,standard
 deseabl,deseable,1,standard
 deseador,deseador,1,standard
+deseandot,desear,1,extend
 desec,desecación,1,standard
 desec,desecador,1,standard
 desec,desecamiento,1,standard
@@ -30217,11 +30225,11 @@ detect,detectar,1,standard
 detectiv,detective,1,standard
 detectivesc,detectivesco,1,standard
 detector,detector,1,standard
-detendran,detener,1,standard
 deten,detener,1,standard
 deten,detenido,1,standard
 deten,detenimiento,1,standard
 detencion,detención,1,standard
+detendran,detener,1,standard
 detenedor,detenedor,1,standard
 detenent,detenencia,1,standard
 detenid,detenidamente,1,standard
@@ -30263,6 +30271,7 @@ detract,detractar,1,standard
 detractor,detractor,1,standard
 detraedor,detraedor,1,standard
 detraimient,detraimiento,1,standard
+detr,detrás,1,standard
 detras,detrás,1,standard
 detriment,detrimento,1,standard
 detrit,detrítico,1,standard
@@ -31287,8 +31296,6 @@ diversific,diversificar,1,standard
 diversiform,diversiforme,1,standard
 diversion,diversión,1,standard
 diversori,diversorio,1,standard
-diviertanc,divertido,1,standard
-diviertet,divertido,1,standard
 divert,divertido,1,standard
 divert,divertimiento,1,standard
 divert,divertir,1,standard
@@ -31298,6 +31305,8 @@ divid,dividir,1,standard
 dividend,dividendo,1,standard
 dividider,divididero,1,standard
 dividivi,dividivi,1,standard
+diviertanc,divertido,1,standard
+diviertet,divertido,1,standard
 divies,divieso,1,standard
 divin,divinación,1,standard
 divin,divinador,1,standard
@@ -34127,7 +34136,7 @@ enferm,enfermamente,1,standard
 enferm,enfermar,1,standard
 enferm,enfermería,1,standard
 enferm,enfermo,1,standard
-enferm,enfermoso,1,standard
+enferm,enfermoso,0,standard
 enfermed,enfermedad,1,standard
 enfermer,enfermero,1,standard
 enfermiz,enfermizar,1,standard
@@ -36476,7 +36485,7 @@ escozor,escozor,1,standard
 escrach,escrachar,1,standard
 escrep,escrepa,1,standard
 escrib,escriba,1,standard
-escrib,escribimiento,1,standard
+escrib,escribimiento,0,standard
 escrib,escribir,1,standard
 escriban,escribanía,1,standard
 escriban,escribano,1,standard
@@ -37007,6 +37016,7 @@ esper,esperador,1,standard
 esper,esperanza,1,standard
 esper,esperar,1,standard
 esper,esperido,1,standard
+esperab,esperar,1,standard
 esperader,esperadero,1,standard
 esperant,esperantista,1,standard
 esperant,esperanto,1,standard
@@ -37924,6 +37934,7 @@ estreptococ,estreptocócico,1,standard
 estreptococ,estreptococo,1,standard
 estreptococi,estreptococia,1,standard
 estreptomicin,estreptomicina,1,standard
+stres,estrés,1,standard
 estres,estrés,1,standard
 estres,estresado,1,standard
 estres,estresante,1,standard
@@ -38098,7 +38109,7 @@ eterniz,eternizar,1,standard
 eteroman,eteromanía,1,standard
 etesi,etesio,1,standard
 etic,ética,1,standard
-etic,eticidad,1,standard
+etic,eticidad,0,standard
 etic,ético,1,standard
 etil,etílico,1,standard
 etil,etilismo,1,standard
@@ -38703,7 +38714,7 @@ expres,expresivo,1,standard
 expres,expreso,1,standard
 expresion,expresión,1,standard
 expresion,expresionismo,1,standard
-expresion,expresionista,1,standard
+expresion,expresionista,0,standard
 exprim,exprimir,1,standard
 exprimider,exprimidera,1,standard
 exprimider,exprimidero,1,standard
@@ -38813,11 +38824,11 @@ extrañ,extraña,1,standard
 extrañ,extrañación,0,standard
 extrañ,extrañamente,0,standard
 extrañ,extrañamiento,0,standard
-extrañandot,extrañar,1,extend
 extrañ,extrañar,1,standard
-extrañes,extraño,1,extend
 extrañ,extraño,1,standard
+extrañandot,extrañar,1,extend
 extranatural,extranatural,1,standard
+extrañes,extraño,1,extend
 extrañez,extrañez,1,standard
 extrañez,extrañeza,1,standard
 extranj,extranjería,1,standard
@@ -38937,6 +38948,7 @@ fabulist,fabulístico,1,standard
 fac,faca,1,standard
 fac,facer,1,standard
 fac,facería,1,standard
+fac,face,1,extend
 facat,fácata,1,standard
 facaz,facazo,1,standard
 faccion,facción,1,standard
@@ -39195,11 +39207,11 @@ falsif,falsificador,1,standard
 falsific,falsificar,1,standard
 falsill,falsilla,1,standard
 falsopet,falsopeto,1,standard
-faltamient,falta,1,extend
 falt,falta,1,standard
 falt,faltar,1,standard
 falt,falte,1,standard
 falt,falto,1,standard
+faltamient,falta,1,extend
 faltant,faltante,1,standard
 faltist,faltista,1,standard
 falton,faltón,1,standard
@@ -39215,9 +39227,9 @@ fam,famosamente,1,standard
 fambr,fambre,1,standard
 famel,famélico,1,standard
 famili,familia,1,standard
-familiar,familiar,1,standard
 famili,familiar,1,standard
 famili,familio,1,standard
+familiar,familiar,1,standard
 familiar,familiaridad,1,standard
 familiar,familiarmente,1,standard
 familiariz,familiarizar,1,standard
@@ -41425,7 +41437,7 @@ fug,fuga,1,standard
 fug,fugada,1,standard
 fug,fugar,1,standard
 fug,fúgido,1,standard
-fug,fugir,1,standard
+fug,fugir,0,standard
 fugac,fugacidad,1,standard
 fugaz,fugaz,1,standard
 fugaz,fugazmente,1,standard
@@ -42429,6 +42441,7 @@ gason,gasón,1,standard
 gast,gastado,1,standard
 gast,gastar,1,standard
 gast,gasto,1,standard
+gast,gastón,1,extend
 gastabl,gastable,1,standard
 gastader,gastadero,1,standard
 gastador,gastador,1,standard
@@ -43100,9 +43113,9 @@ gol,gol,1,standard
 gol,gola,1,standard
 gol,goleada,1,standard
 gol,golear,1,standard
-golaz,gol,1,standard
 gol,goles,1,standard
 gol,golosamente,1,standard
+golaz,gol,1,standard
 goldr,goldre,1,standard
 goleador,goleador,1,standard
 goler,golero,1,standard
@@ -43319,6 +43332,7 @@ grabazon,grabazón,1,standard
 gracej,gracejada,1,standard
 gracej,gracejar,1,standard
 gracej,gracejo,1,standard
+graci,gracias,1,standard
 graci,gracia,1,standard
 graci,graciado,1,standard
 graci,graciosamente,1,standard
@@ -44547,8 +44561,6 @@ hablistan,hablistán,1,standard
 habon,habón,1,standard
 habus,habús,1,standard
 hac,haca,1,standard
-hagamon,hagamos,1,standard
-hag,hagamos,1,standard
 hac,hace,1,standard
 hac,hacer,1,standard
 hacan,hacán,1,standard
@@ -44599,6 +44611,8 @@ hadrub,hadruba,1,standard
 hadrub,hadrubado,1,standard
 hafiz,hafiz,1,standard
 hafni,hafnio,1,standard
+hag,hagamos,1,standard
+hagamon,hagamos,1,standard
 hagiograf,hagiografía,1,standard
 hagiograf,hagiográfico,1,standard
 hagiograf,hagiógrafo,1,standard
@@ -45867,6 +45881,7 @@ hobach,hobacho,1,standard
 hobachon,hobachón,1,standard
 hobachon,hobachonería,1,standard
 hobby,hobby,1,standard
+hoc,hoc,1,standard
 hoc,hoce,1,standard
 hocer,hocero,1,standard
 hocet,hocete,1,standard
@@ -46888,7 +46903,6 @@ imagen,imagenería,1,standard
 imagin,imaginable,1,standard
 imagin,imaginación,1,standard
 imagin,imaginamiento,1,standard
-imaginens,imaginar,1,standard
 imagin,imaginar,1,standard
 imagin,imaginativa,1,standard
 imagin,imaginativo,1,standard
@@ -46896,6 +46910,7 @@ imagin,imaginería,1,standard
 imaginari,imaginaria,1,standard
 imaginari,imaginariamente,1,standard
 imaginari,imaginario,1,standard
+imaginens,imaginar,1,standard
 imaginer,imaginero,1,standard
 imaginolog,imaginología,1,standard
 imam,imam,1,standard
@@ -49314,7 +49329,7 @@ invertebr,invertebración,1,standard
 invertebr,invertebrado,1,standard
 invest,investir,1,standard
 investidur,investidura,1,standard
-investig,investigable,1,standard
+investig,investigable,0,standard
 investig,investigación,1,standard
 investig,investigador,1,standard
 investig,investigar,1,standard
@@ -49398,6 +49413,7 @@ ipso iur,ipso iure,1,standard
 iqueñ,iqueño,1,standard
 iquiqueñ,iquiqueño,1,standard
 iquiteñ,iquiteño,1,standard
+irlo,ir,1,standard
 ir,ir,1,standard
 ira,ira,1,standard
 iracund,iracundo,1,standard
@@ -50112,7 +50128,7 @@ jesuit,jesuítico,1,standard
 jesuit,jesuitismo,1,standard
 jesuitin,jesuitina,1,standard
 jesus,Jesús,1,standard
-jesus,jesusear,1,standard
+jesus,jesusear,0,standard
 jet,jet,1,standard
 jet,jeta,1,standard
 jet,jetar,1,standard
@@ -50238,6 +50254,7 @@ jitomatal,jitomatal,1,standard
 jitomater,jitomatero,1,standard
 jiu-jitsu,jiu-jitsu,1,standard
 jo,jo,1,standard
+jo,joy,1,extend
 job,Job,1,standard
 job,jobada,1,standard
 job,jobar,1,standard
@@ -52224,6 +52241,7 @@ lind,lindamente,1,standard
 lind,lindar,1,standard
 lind,linde,1,standard
 lind,lindería,1,standard
+lind,linda,1,standard
 lind,lindo,1,standard
 lindant,lindante,1,standard
 lindaz,lindazo,1,standard
@@ -52567,7 +52585,6 @@ lloron,llorón,1,standard
 lloros,lloroso,1,standard
 llos,llosa,1,standard
 llotr,llotrar,1,standard
-lluev,llover,1,standard
 llov,llover,1,standard
 llov,llovida,1,standard
 llov,llovido,1,standard
@@ -52580,6 +52597,7 @@ llovizn,lloviznoso,1,standard
 llubin,llubina,1,standard
 lluch,llucho,1,standard
 lluec,llueca,1,standard
+lluev,llover,1,standard
 lluvi,lluvia,1,standard
 lluvial,lluvial,1,standard
 lluvian,lluviano,1,standard
@@ -54322,7 +54340,6 @@ mantel,mantelo,1,standard
 mantelet,manteleta,1,standard
 mantelet,mantelete,1,standard
 mantellin,mantellina,1,standard
-mantuv,mantener,1,extend
 manten,mantener,1,standard
 manten,mantenido,1,standard
 manten,mantenimiento,1,standard
@@ -54351,6 +54368,7 @@ mantorn,mantornar,1,standard
 mantr,mantra,1,standard
 mantuan,mantuano,1,standard
 mantud,mantudo,1,standard
+mantuv,mantener,1,extend
 manuabl,manuable,1,standard
 manual,manual,1,standard
 manual,manualidad,1,standard
@@ -56386,6 +56404,7 @@ millaj,millaje,1,standard
 millar,millarada,1,standard
 millard,millardo,1,standard
 millon,millón,1,standard
+millon,millones,1,standard
 millon,millonada,1,standard
 millonari,millonario,1,standard
 millonesim,millonésimo,1,standard
@@ -57858,6 +57877,7 @@ muellaj,muellaje,1,standard
 muellement,muellemente,1,standard
 muend,muenda,1,standard
 muer,muera,1,standard
+muer,muerte,1,extend
 muerd,muerdo,1,standard
 muerdag,muérdago,1,standard
 muerdisorb,muerdisorbe,1,standard
@@ -57865,8 +57885,6 @@ muerg,muergo,1,standard
 muergan,muérgano,1,standard
 muerm,muermo,1,standard
 muermos,muermoso,1,standard
-mur,muerte,1,standard
-muer,muerte,1,extend
 muert,muerte,1,extend
 muert,muerto,1,standard
 muerter,muertero,1,standard
@@ -57907,10 +57925,10 @@ muiñeir,muiñeira,1,standard
 muir,muir,1,standard
 muisc,muisca,1,standard
 muj,mujada,1,standard
-mujer,mujer,1,standard
 muj,mujer,1,standard
 mujalat,mujalata,1,standard
-mujer,mujerear,1,standard
+mujer,mujer,1,standard
+mujer,mujerear,0,standard
 mujercill,mujercilla,1,standard
 mujerer,mujerero,1,standard
 mujeri,mujerío,1,standard
@@ -58059,6 +58077,7 @@ munuscul,munúsculo,1,standard
 muon,muon,1,standard
 muqu,muquir,1,standard
 muquicion,muquición,1,standard
+mur,muerte,1,standard
 mur,mur,1,standard
 mur,mura,1,standard
 mur,murar,1,standard
@@ -60026,9 +60045,9 @@ ojiv,ojiva,1,standard
 ojival,ojival,1,standard
 ojizain,ojizaino,1,standard
 ojizarc,ojizarco,1,standard
-ojos,ojo,1,standard
 ojo,ojo,1,standard
 ojoch,ojoche,1,standard
+ojos,ojo,1,standard
 ojot,ojota,1,standard
 ojud,ojudo,1,standard
 ojuel,ojuelos,1,standard
@@ -60921,7 +60940,7 @@ pabil,pabilo,1,standard
 pabil,pabiloso,1,standard
 pabilon,pabilón,1,standard
 pabl,pablar,1,standard
-pabl,Pablo,1,standard
+pabl,pablo,1,standard
 pabul,pábulo,1,standard
 pac,paca,1,standard
 pac,pacado,1,standard
@@ -61136,7 +61155,7 @@ pal,pálida,1,standard
 pal,pálido,1,standard
 pal,palo,1,standard
 palabr,palabra,1,standard
-palabr,palabrada,1,standard
+palabr,palabrada,0,standard
 palabr,palabrear,1,standard
 palabr,palabrería,1,standard
 palabr,palabrista,1,standard
@@ -62224,6 +62243,7 @@ particip,partícipe,1,standard
 participi,participio,1,standard
 participial,participial,1,standard
 particul,partícula,1,standard
+particular,particular,1,standard
 particul,particular,1,standard
 particular,particularidad,1,standard
 particular,particularismo,1,standard
@@ -62989,7 +63009,6 @@ pejin,pejín,1,standard
 pejin,pejino,1,standard
 pekines,pekinés,1,standard
 pel,pelea,1,standard
-pele,pelea,1,standard
 pel,pela,1,standard
 pel,pelada,1,standard
 pel,pelado,1,standard
@@ -63038,6 +63057,7 @@ pelazg,pelazga,1,standard
 peld,pelde,1,standard
 peldañ,peldaño,1,standard
 peldefebr,peldefebre,1,standard
+pele,pelea,1,standard
 pele,pelea,1,standard
 peleader,peleadera,1,standard
 peleador,peleador,1,standard
@@ -63517,6 +63537,7 @@ perestroik,perestroika,1,standard
 peret,pereta,1,standard
 peret,pereto,1,standard
 pereter,peretero,1,standard
+perez,pérez,1,standard
 perez,pereza,1,standard
 perez,perezosa,1,standard
 perez,perezosamente,1,standard
@@ -63832,8 +63853,8 @@ persistent,persistente,1,standard
 persog,persogo,1,standard
 person,persona,1,standard
 person,personación,1,standard
-person,personada,1,standard
-person,personado,1,standard
+person,personada,0,standard
+person,personado,0,standard
 person,personamiento,1,standard
 person,personarse,1,standard
 person,personería,1,standard
@@ -64947,7 +64968,8 @@ piul,piular,1,standard
 piul,piulido,1,standard
 piun,piune,1,standard
 piuquen,piuquén,1,standard
-piur,piure,1,standard
+piur,piura,1,peruanismo
+piur,piure,0,standard
 piuran,piurano,1,standard
 pius,pius,1,standard
 pivot,pívot,1,standard
@@ -66884,6 +66906,7 @@ primac,primacía,1,standard
 primacial,primacial,1,standard
 primal,primal,1,standard
 primari,primariamente,1,standard
+primari,primaria,1,standard
 primari,primario,1,standard
 primat,primate,1,standard
 primaver,primavera,1,standard
@@ -67374,6 +67397,7 @@ propuls,propulsa,1,standard
 propuls,propulsar,1,standard
 propulsion,propulsión,1,standard
 propulsor,propulsor,1,standard
+propus,proponer,1,standard
 pror,prora,1,standard
 prorrat,prorrata,1,standard
 prorrat,prorratear,1,standard
@@ -69219,6 +69243,7 @@ rate,rateo,1,standard
 rater,ratera,1,standard
 rater,rateramente,1,standard
 rater,ratero,1,standard
+raterazo,ratero,1,standard
 rateril,rateril,1,standard
 rati,ratio,1,standard
 ratic,raticida,1,standard
@@ -69959,6 +69984,7 @@ redim,redimir,1,standard
 redimidor,redimidor,1,standard
 redingot,redingote,1,standard
 redios,rediós,1,standard
+redireccion,redireccionar,1,extend
 redistribu,redistribución,1,standard
 redistribu,redistribuir,1,standard
 redit,rédito,1,standard
@@ -70900,12 +70926,12 @@ renuenci,renuencia,1,standard
 renuent,renuente,1,standard
 renuev,renuevo,1,standard
 renunci,renuncia,1,standard
-renunci,renunciable,1,standard
-renunci,renunciación,1,standard
-renunci,renunciamiento,1,standard
-renunci,renunciante,1,standard
+renunci,renunciable,0,standard
+renunci,renunciación,0,standard
+renunci,renunciamiento,0,standard
+renunci,renunciante,0,standard
 renunci,renunciar,1,standard
-renunci,renuncio,1,standard
+renunci,renuncio,0,standard
 renunciatari,renunciatario,1,standard
 renvals,renvalsar,1,standard
 renvals,renvalso,1,standard
@@ -71144,7 +71170,7 @@ rept,reptar,1,standard
 reptador,reptador,1,standard
 reptil,reptil,1,standard
 republ,república,1,standard
-republ,repúblico,1,standard
+republ,repúblico,0,standard
 republican,republicanismo,1,standard
 republican,republicano,1,standard
 repuch,repuchar,1,standard
@@ -72005,7 +72031,6 @@ ribosom,ribosoma,1,standard
 ribosom,ribosómico,1,standard
 ric,rica,1,standard
 ric,ricamente,1,standard
-riquisim,rico,1,standard
 ric,rico,1,standard
 ricach,ricacho,1,standard
 ricadueñ,ricadueña,1,standard
@@ -72130,6 +72155,7 @@ ripi,ripio,1,standard
 ripia,ripiao,1,standard
 ripios,ripioso,1,standard
 riquez,riqueza,1,standard
+riquisim,rico,1,standard
 ris,risa,1,standard
 ris,risada,1,standard
 ris,risería,1,standard
@@ -72925,7 +72951,6 @@ rutin,rutina,1,standard
 rutinari,rutinario,1,standard
 rutiner,rutinero,1,standard
 sab,sábado,1,standard
-saber,saber,1,extend
 sab,saber,1,standard
 sab,sabido,1,standard
 sabacu,sabacuante,1,standard
@@ -72968,6 +72993,7 @@ sabelian,sabelianismo,1,standard
 sabelian,sabeliano,1,standard
 sabelotod,sabelotodo,1,standard
 sabenci,sabencia,1,standard
+saber,saber,1,extend
 sabi,sabiamente,1,standard
 sabi,sabio,1,standard
 sabicu,sabicú,1,standard
@@ -73249,7 +73275,6 @@ sal,salar,1,standard
 sal,salearse,1,standard
 sal,salida,1,standard
 sal,salido,1,standard
-salidit,salir,1,standard
 sal,salir,1,standard
 salabard,salabardear,1,standard
 salabard,salabardo,1,standard
@@ -73331,6 +73356,7 @@ sales,salesa,1,standard
 salesian,salesiano,1,standard
 salet,saleta,1,standard
 salg,salga,1,standard
+salg,salgado,1,standard
 salg,salgada,1,standard
 salg,salgar,1,standard
 salg,salgue,1,standard
@@ -73349,6 +73375,7 @@ salicin,salicina,1,standard
 salicine,salicíneo,1,standard
 salicor,salicor,1,standard
 salider,salidero,1,standard
+salidit,salir,1,standard
 salidiz,salidizo,1,standard
 salient,saliente,1,standard
 salif,salificación,1,standard
@@ -74544,10 +74571,10 @@ senadoconsult,senadoconsulto,1,standard
 senador,senador,1,standard
 senadur,senaduría,1,standard
 señal,señal,1,standard
-señal,señalada,1,standard
-señal,señaladamente,1,standard
-señal,señalado,1,standard
-señal,señalamiento,1,standard
+señal,señalada,0,standard
+señal,señaladamente,0,standard
+señal,señalado,0,standard
+señal,señalamiento,0,standard
 señal,señalar,1,standard
 señaler,señalero,1,standard
 señaliz,señalización,1,standard
@@ -75002,10 +75029,10 @@ sextupl,sextuplicación,1,standard
 sextupl,séxtuplo,1,standard
 sextuplic,sextuplicar,1,standard
 sexu,sexuado,1,standard
-sexualiz,sexual,1,extend
 sexual,sexual,1,standard
 sexual,sexualidad,1,standard
 sexual,sexualmente,1,standard
+sexualiz,sexual,1,extend
 sexy,sexy,1,standard
 seychellens,seychellense,1,standard
 shaurir,shaurire,1,standard
@@ -77077,7 +77104,6 @@ super,superable,1,standard
 super,superación,1,standard
 super,superador,0,standard
 super,superante,0,standard
-superandot,superar,1,extend
 super,superar,1,standard
 super,súpero,1,standard
 superabund,superabundancia,1,standard
@@ -77085,6 +77111,7 @@ superabund,superabundante,1,standard
 superabund,superabundantemente,1,standard
 superabund,superabundar,1,standard
 superadit,superádito,1,standard
+superandot,superar,1,extend
 superavit,superávit,1,standard
 superb,superbamente,1,standard
 superb,superbo,1,standard
@@ -77281,6 +77308,7 @@ surub,surubí,1,standard
 surump,surumpe,1,standard
 suruv,suruví,1,standard
 sus,sus,1,standard
+sus,susan,1,standard
 sus,suso,1,standard
 susan,susano,1,standard
 suscepcion,suscepción,1,standard
@@ -77884,6 +77912,7 @@ tanquet,tanqueta,1,standard
 tant,tantarán,1,standard
 tant,tanteada,1,standard
 tant,tantear,1,standard
+tant,tantas,1,standard
 tant,tanto,1,standard
 tantal,tántalo,1,standard
 tantali,tantalio,1,standard
@@ -78528,6 +78557,7 @@ televisual,televisual,1,standard
 telex,télex,1,standard
 telill,telilla,1,standard
 telin,telina,1,standard
+tell,tello,1,standard
 tell,tell,1,standard
 tellin,tellina,1,standard
 telliz,telliz,1,standard
@@ -78645,11 +78675,11 @@ temporiz,temporizador,1,standard
 temporiz,temporizar,1,standard
 tempran,tempranamente,1,standard
 tempran,tempranear,1,standard
-tempranisim,temprano,1,extend
 tempran,temprano,1,standard
 tempranal,tempranal,1,standard
 tempraner,tempranero,1,standard
 tempranill,tempranilla,1,standard
+tempranisim,temprano,1,extend
 tempranit,tempranito,1,standard
 temu,temu,1,standard
 temucan,temucano,1,standard
@@ -78657,7 +78687,6 @@ temulent,temulento,1,standard
 ten,ten,1,standard
 ten,tena,1,standard
 ten,tenada,1,standard
-tenert,tener,1,extend
 ten,tener,1,standard
 ten,tenería,1,standard
 ten,tenida,1,standard
@@ -78723,6 +78752,7 @@ tenedorcill,tenedorcillo,1,standard
 tenedur,teneduría,1,standard
 tenenci,tenencia,1,standard
 tener,teneres,1,standard
+tenert,tener,1,extend
 tenesm,tenesmo,1,standard
 teng,tengue,1,standard
 tenguereng,tenguerengue,1,standard
@@ -80147,6 +80177,7 @@ torpez,torpeza,1,standard
 torqu,torques,1,standard
 torr,torrado,1,standard
 torr,torrar,1,standard
+torr,torres,1,standard
 torr,torre,1,standard
 torr,torreado,1,standard
 torr,torrear,1,standard
@@ -81914,6 +81945,7 @@ tunec,tunecí,1,standard
 tunecin,tunecino,1,standard
 tunel,túnel,1,standard
 tunel,tuneladora,1,standard
+tunelcit,túnel,1,standard
 tuner,tunera,1,standard
 tuner,tunero,1,standard
 tunez,Túnez,1,standard
@@ -82516,6 +82548,7 @@ utilitar,utilitarista,1,standard
 utilitari,utilitario,1,standard
 utiliz,utilizable,1,standard
 utiliz,utilización,1,standard
+utilic,utilizar,1,standard
 utiliz,utilizar,1,standard
 utillaj,utillaje,1,standard
 utop,utopía,1,standard
@@ -82737,8 +82770,8 @@ valor,valor,1,standard
 valor,valoración,1,standard
 valor,valorar,1,standard
 valor,valorativo,1,standard
-valor,valorear,1,standard
-valor,valoría,1,standard
+valor,valorear,0,standard
+valor,valoría,0,standard
 valoriz,valorización,1,standard
 valoriz,valorizador,1,standard
 valoriz,valorizar,1,standard
@@ -82846,6 +82879,7 @@ varet,vareta,1,standard
 varet,varetear,1,standard
 varetaz,varetazo,1,standard
 vareton,varetón,1,standard
+varg,vargas,1,standard
 varg,varga,1,standard
 vargan,várgano,1,standard
 varganal,varganal,1,standard
@@ -82942,6 +82976,7 @@ vaupens,vaupense,1,standard
 vay,vaya,1,standard
 ve,ve,1,standard
 vec,vecería,1,standard
+vec,vez,1,standard
 vecer,vecera,1,standard
 vecer,vecero,1,standard
 vecin,vecinamente,1,standard
@@ -83580,7 +83615,6 @@ vetust,vetusto,1,standard
 vetustez,vetustez,1,standard
 vexilolog,vexilología,1,standard
 vexilolog,vexilólogo,1,standard
-vec,vez,1,standard
 vez,vez,1,standard
 vez,veza,1,standard
 vez,vezar,1,standard
@@ -84127,9 +84161,11 @@ viuded,viudedad,1,standard
 viudez,viudez,1,standard
 viudit,viudita,1,standard
 viv,vivamente,1,standard
+viv,viva,1,standard
 viv,vivar,1,standard
 viv,vivido,1,standard
 viv,vívido,1,standard
+viv,viven,1,standard
 viv,vivir,1,standard
 viv,vivo,1,standard
 vivac,vivac,1,standard
@@ -85461,5 +85497,3 @@ zutujil,zutujil,1,standard
 zuz,zuzar,1,standard
 zuz,zuzo,1,standard
 zuzon,zuzón,1,standard
-causit,causa,1,peruanismo
-redireccion,redireccionar,1,extend

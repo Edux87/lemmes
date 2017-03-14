@@ -1,5 +1,5 @@
 # Lemmes
-Compact interface for Assisted Machine Learning, entity extraction & performance test with multilingual support, build in python.
+Lemmas for Spanish
 
 ## Install
 After clone this repo

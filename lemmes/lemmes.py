@@ -39,7 +39,9 @@ class Lemmatizer:
         if len(token):
             lemma = None
             self.LOG.info(token)
+            o_token = token
             token, stemmed = self.stemmer(token)
+            self.LOG.info('stemmer token: ' + repr(stemmed))
             lemmas = self.DICTIONARY.get(stemmed)
             self.LOG.info(token + ' lemmas: ' + repr(lemmas))
             if lemmas:
@@ -54,9 +56,9 @@ class Lemmatizer:
                     for t in range(len_stemm, len(token)):
                         n_stemm = token[:len_stemm]
                         self.LOG.info('aprox: ' + str(t) + ': ' + n_stemm)
-                        for l in lemmas.keys():
+                        for k, l in lemmas.iteritems():
                             if n_stemm in l:
-                                w = lemmas.get(l)
+                                w = l
                                 if len(w) <= len(token) + 1:
                                     l_words2.add(w)
                                     self.LOG.info('aprox: ' + repr(w))
@@ -66,7 +68,12 @@ class Lemmatizer:
                         len_stemm += 1
                         self.LOG.info('set: ' + repr(l_words1))
                     l_words1 = list(l_words1)
-                    return l_words1[0] if len(l_words1) == 1 else l_words1
+                    a_rtr = l_words1[0] if len(l_words1) == 1 else l_words1
+                    if o_token in a_rtr:
+                        return o_token
+                    if len(a_rtr):
+                        return o_token
+                    return a_rtr
         return token
 
     @classmethod
